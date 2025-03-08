@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadros de Ladino - Animal Crossing</title>
+    <link real="icon" href="Ladino.ico">
+    <link rel="stylesheet" href="Style/style.css">
+    
+    <script>
+        function mostrarSeccion(seccion) {
+            document.getElementById('inicio').classList.add('hidden');
+            document.getElementById('cuadros').classList.add('hidden');
+            document.getElementById(seccion).classList.remove('hidden');
+        }
+    </script>
+</head>
+<body>
+    <div id="inicio" class="container">
+        <h1>Cuadros de Ladino en Animal Crossing</h1>
+        <br>
+        <p>En este mini blog descubre algunos de los cuadros que ofrece la gran colección que puedes comprar en la tienda de Ladino.</p>
+        <p>¡Cuidado con las falsificaciones!</p>
+        <img src="Museo.webp" width="400" height="300">
+        <center>
+            <a2 onclick="mostrarSeccion('cuadros')">Ver cuadros</a2>
+        </center>
+    </div>
+    <div id="cuadros" class="container hidden">
+        <h1>Cuadros disponibles</h1>
+	<br><br>
+
+        <div class="cuadro">
+            <h3>Retrato Italiano</h3>
+            <p>Basado en la "Mona Lisa" de Leonardo da Vinci.</p>
+	    <img src = "Cuadros/Retrato_Italiano.jpg" width="200" height="210">
+	    <a href="https://animalcrossing.fandom.com/es/wiki/Retrato_italiano"> Saber más </a>
+	    
+        </div>
+        <div class="cuadro">
+            <h3>Retrato Perla</h3>
+            <p>Representa "La Joven de la Perla" de Johannes Vermeer.</p>
+	    <img src = "Cuadros/Retrato_Perla.jpg" width="200" height="210">
+            <a href="https://animalcrossing.fandom.com/es/wiki/Retrato_perla"> Saber más </a>
+        </div>
+
+        <div class="cuadro">
+            <h3>Cuadro Holandés</h3>
+            <p>Su nombre original es "La ronda de noche" de Rembrandt en 1642.</p>
+	    <center>
+	    <img src = "Cuadros/Cuadro_Holandes.jpg" width="200" height="210">
+	    </center>
+	    <a href="https://animalcrossing.fandom.com/es/wiki/Cuadro_holand%C3%A9s"> Saber más </a>
+        </div>
+
+	<div class="cuadro">
+            <h3>Cuadro Segadores</h3>
+            <p>Basado en "Las espigadoras" de Jean-François Millet.</p>
+	    <img src = "Cuadros/Cuadro_Segadores.jpg" width="200" height="210">
+	    <a href="https://animalcrossing.fandom.com/es/wiki/Cuadro_segadores"> Saber más </a>
+        </div>
+
+	<div class="cuadro">
+            <h3>Cuadro Flores</h3>
+            <p>Este cuadro está basado en el cuadro "Los Girasoles" de Vincent Van Gogh.</p>
+	    <img src = "Cuadros/Cuadro_Flores.jpg" width="200" height="210">
+            <a href="https://animalcrossing.fandom.com/es/wiki/Cuadro_flores"> Saber más </a>
+        </div>
+
+	<div class="cuadro">
+            <h3>Cuadro Invernal</h3>
+            <p>Basado en el cuadro original de  “Los cazadores en la nieve” de Pieter Brueghel el Viejo.</p>
+	    <img src = "Cuadros/Cuadro_Invernal.png" width="200" height="210">
+            <a href="https://animalcrossing.fandom.com/es/wiki/Cuadro_invernal"> Saber más </a>
+        </div>
+        <center>
+            <a1 onclick="mostrarSeccion('inicio')">Volver al inicio</a1>
+        </center>
+	<footer>
+  	    <p>&copy; 2025 Sparkle_Blog. Todos los derechos reservados.</p>
+	</footer>
+    </div>
+</body>
+</html>
